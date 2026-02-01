@@ -254,9 +254,9 @@ export const About3 = () => {
                 <ul className="checked-list wow fadeInUp" data-wow-delay=".3s">
                   <li>A place in history</li>
                   <li>It’s about impact, goodness</li>
-                  <li>More goodness in the world</li>
+                  <li>More goodness in Hazaribagh</li>
                   <li>
-                    The world we live in right now
+                    The Hazaribagh community we live in right now
                     <br />
                     can be hard
                   </li>

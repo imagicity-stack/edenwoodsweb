@@ -234,7 +234,7 @@ export const Promo3 = () => {
       title: "Foundries For Grow",
       description:
         "The Spring is a passionate and determined group of monthly givers on a mission",
-      icon: "/assets/img/world.png",
+      icon: "/assets/img/feature-icon-1.png",
       image: "/assets/img/waterboy.jpg",
       styleClass: "style-2",
       delay: ".5s",
