@@ -317,60 +317,12 @@ const Header4 = ({ open }: { open: () => void }) => {
   );
 };
 
-const HomeMenuItem = ({ n }: { n: number }) => (
-  <div className="homemenu">
-    <div className={`homemenu-thumb ${n > 1 ? "mb-15" : ""}`}>
-      <Image
-        src={`/assets/img/header/home-${n}.jpg`}
-        width={0}
-        height={0}
-        sizes="100vw"
-        style={{ width: "100%", height: "auto" }}
-        alt="logo-img"
-      />
-      <div className="demo-button">
-        <Link href={n === 1 ? "/" : `/index-${n}`} className="theme-btn">
-          <span>View Demo</span>
-        </Link>
-      </div>
-    </div>
-    <div className="homemenu-content text-center">
-      <h4 className="homemenu-title">Home 0{n}</h4>
-    </div>
-  </div>
-);
-
 const Nav = () => (
   <div className="main-menu d-none d-xl-block">
     <nav id="mobile-menu">
       <ul>
-        <li className="has-dropdown menu-thumb">
-          <Link href="/">
-            Home
-            <i className="fas fa-angle-down" />
-          </Link>
-          <ul className="submenu has-homemenu">
-            <li>
-              <div className="homemenu-items">
-                {[1, 2, 3, 4].map((n) => (
-                  <HomeMenuItem key={n} n={n} />
-                ))}
-              </div>
-            </li>
-          </ul>
-        </li>
-        <li className="has-dropdown d-xl-none">
-          <Link href="/team" className="border-none">
-            Home
-            <i className="fas fa-angle-down" />
-          </Link>
-          <ul className="submenu">
-            {[1, 2, 3, 4].map((n) => (
-              <li key={n}>
-                <Link href={n === 1 ? "/index" : `/index-${n}`}>Home 0{n}</Link>
-              </li>
-            ))}
-          </ul>
+        <li>
+          <Link href="/">Home</Link>
         </li>
         <li>
           <Link href="/about">About</Link>
@@ -591,27 +543,10 @@ const MobileNav = () => {
         </a>
         <nav className="mean-nav">
           <ul>
-            <li className="has-dropdown">
-              <Link href="/team" className="border-none">
+            <li>
+              <Link href="/" className="border-none">
                 Home
-                <i className="fas fa-angle-down" />
               </Link>
-              <ul className="submenu" style={show("home", activeMenu)}>
-                {[1, 2, 3, 4].map((n) => (
-                  <li key={n}>
-                    <Link href={n === 1 ? "/index" : `/index-${n}`}>
-                      Home 0{n}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => toggle("home", setActiveMenu, activeMenu)}
-              >
-                <i className="far fa-plus" />
-              </a>
             </li>
             <li>
               <Link href="/about">About</Link>
