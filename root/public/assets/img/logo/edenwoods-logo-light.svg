@@ -1,0 +1,8 @@
+<svg width="240" height="72" viewBox="0 0 240 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="72" rx="12" fill="#0B1B3A"/>
+  <circle cx="36" cy="36" r="22" fill="#F4C430"/>
+  <path d="M28 26C33 23 39 23 44 26V46C39 43 33 43 28 46V26Z" fill="#0B1B3A"/>
+  <path d="M30 27.5C34 25.2 38 25.2 42 27.5V42.5C38 40.3 34 40.3 30 42.5V27.5Z" fill="#123B6D"/>
+  <text x="70" y="34" font-family="'DM Sans', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">EDENWOODS</text>
+  <text x="70" y="54" font-family="'DM Sans', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5" fill="#F4C430">EDUHUB FOUNDATION</text>
+</svg>
