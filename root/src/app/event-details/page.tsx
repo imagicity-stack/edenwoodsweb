@@ -21,11 +21,10 @@ const CausesPage = () => {
               <div className="col-12 col-lg-7 col-xl-8">
                 <div className="event-details-contents">
                   <p>
-                    t This website is part of Mitsubishi Power's continuous
-                    efforts to improve communications with existing and
-                    potential customers and other interested parties globally.
-                    Aligned with that business purpose and for most effective
-                    utilization.
+                    This event page highlights how Edenwoods supports learners
+                    and families in Hazaribagh, India through local
+                    partnerships, mentorship, and community-driven learning
+                    programs.
                   </p>
                   <p>
                     The language, at its very core, emphasised extensively on
@@ -89,7 +88,7 @@ const CausesPage = () => {
                           <i className="fal fa-map-marker-alt" />
                         </div>
                         <div className="address">
-                          <p>12/A, Miranda Halim City Town Hall, NYC</p>
+                          <p>Town Hall Road, Hazaribagh, India</p>
                         </div>
                       </div>
                       <div className="single-address-info">

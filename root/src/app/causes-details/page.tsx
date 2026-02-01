@@ -146,7 +146,7 @@ const CausesPage = () => {
                                 Donation Total:
                               </div>
                               <div className="give-final-total-amount">
-                                <span>$</span>10
+                                <span>₹</span>10
                               </div>
                               <button
                                 type="submit"
@@ -163,28 +163,25 @@ const CausesPage = () => {
                   </div>
                   <div className="causes-contents">
                     <p>
-                      But many people around the world don’t have that luxury.
-                      Every day, about 1,400 children die from diseases caused
-                      by unsafe water and poor sanitation. But it doesn’t have
-                      to be that way. There are simple solutions like drilled
-                      wells, spring protections and BioSand filters
+                      But many families in Hazaribagh don’t have that luxury.
+                      Every day, children face illnesses caused by unsafe water
+                      and poor sanitation. But it doesn’t have to be that way.
+                      There are simple solutions like drilled wells, spring
+                      protections and BioSand filters.
                     </p>
                     <p>
                       100% of the money will be used to build clean water
-                      projects, and when they’re complete, charity: water will
-                      send us photos and GPS coordinates so we can see the exact
-                      community we helped.
+                      projects in Hazaribagh, and when they’re complete, we’ll
+                      share photos and location details so you can see the
+                      exact community we helped.
                     </p>
                     <p>
-                      I started this fundraising campaign to help charity: water
-                      build these types of projects around the world, and I'm
-                      looking for anyone who can help me. But many people around
-                      the world don’t have that luxury. Every day, about 1,400
-                      children die from diseases caused by unsafe water and poor
-                      sanitation. But it doesn’t have to be that way. There are
-                      simple solutions like drilled wells, spring protections
-                      and BioSand filters that help provide clean water to
-                      communities around the world.
+                      We started this fundraising campaign to build these types
+                      of projects across Hazaribagh, and we're looking for
+                      anyone who can help. Many local families still lack
+                      reliable access to clean water, but there are simple
+                      solutions like drilled wells, spring protections, and
+                      BioSand filters that can serve Hazaribagh communities.
                     </p>
                     <div className="row g-4">
                       <div className="col-md-6">
@@ -212,25 +209,22 @@ const CausesPage = () => {
                     <p>
                       Surely access to clean water should be a basic human right
                       in the <b>21st century</b>. If you can only give
-                      <Link href="donation-details">£10</Link> just this one
+                      <Link href="donation-details">₹500</Link> just this one
                       time, it will still make a difference.
                     </p>
                     <p>
-                      I started this fundraising campaign to help charity: water
-                      build these types of projects around the world, and I'm
-                      looking for anyone who can help me. But many people around
-                      the world don’t have that luxury. Every day, about 1,400
-                      children die from diseases caused by unsafe water and poor
-                      sanitation. But it doesn’t have to be that way. There are
-                      simple solutions like drilled wells, spring protections
-                      and BioSand filters that help provide clean water to
-                      communities around the world.
+                      We started this fundraising campaign to help build these
+                      projects across Hazaribagh, and we're looking for anyone
+                      who can help. Many people in Hazaribagh still lack safe
+                      water and sanitation, but simple solutions like drilled
+                      wells, spring protections, and BioSand filters can help
+                      provide clean water to nearby neighborhoods.
                     </p>
                     <ul>
                       <li>A place in history</li>
                       <li>It’s about impact, goodness</li>
-                      <li>More goodness in the world</li>
-                      <li>The world we live in right now</li>
+                      <li>More goodness in Hazaribagh</li>
+                      <li>The community we live in right now</li>
                     </ul>
                   </div>
                 </div>
@@ -264,7 +258,7 @@ const CausesPage = () => {
                       </li>
                       <li>
                         <Link href="causes-details">
-                          Kids in Africa <span>09</span>
+                          Kids in Hazaribagh <span>09</span>
                         </Link>
                       </li>
                     </ul>

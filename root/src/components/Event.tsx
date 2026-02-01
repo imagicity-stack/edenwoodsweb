@@ -403,7 +403,7 @@ const EventCard = ({
           </span>
           <span>
             <i className="fal fa-map-marker-alt" />
-            NY, London
+            Hazaribagh, India
           </span>
         </div>
       </div>
@@ -426,10 +426,10 @@ const EventCard = ({
             </ul>
             <ul>
               <li>
-                <i className="fas fa-check" /> More goodness in the world
+                <i className="fas fa-check" /> More goodness in Hazaribagh
               </li>
               <li>
-                <i className="fas fa-check" /> The world we live
+                <i className="fas fa-check" /> The community we live in
               </li>
             </ul>
           </div>
