@@ -16,7 +16,7 @@ export const Cta1 = () => {
                   Life Changing Video
                 </span>
                 <h2 className="mt-char-animation text-white">
-                  Joel Orphanage Of Ministry Uganda
+                  Hazaribagh Learning Centre
                 </h2>
               </div>
               <div className="button-items mt-4 mt-md-0">
@@ -188,8 +188,8 @@ export const Cta4 = () => {
               Life Changing Video
             </span>
             <h2 className="mt-char-animation text-white">
-              Joel Orphanage Of <br />
-              Ministry Uganda
+              Hazaribagh Learning <br />
+              Centre
             </h2>
           </div>
           <div className="video-play-btn wow fadeInUp" data-wow-delay=".5s">
@@ -227,8 +227,8 @@ export const Cta5 = () => {
               Life Changing Video
             </span>
             <h2 className="mt-char-animation text-white">
-              Joel Orphanage Of <br />
-              Ministry Uganda
+              Hazaribagh Learning <br />
+              Centre
             </h2>
           </div>
           <div
