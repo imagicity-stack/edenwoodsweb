@@ -12,7 +12,7 @@ export const Donation1 = () => {
     {
       title: "Healthy Foods",
       description:
-        "There are only a few times in each of our lives that we get to witness a truly historic global accomplishment: Ending smallpox, tearing",
+        "There are only a few times in our lives that we get to witness a truly historic local milestone for Hazaribagh families.",
       icon: "/assets/img/donation/icon-1.png",
       iconWidth: "81",
       delay: ".3s",
@@ -20,7 +20,7 @@ export const Donation1 = () => {
     {
       title: "Pure Water",
       description:
-        "There are only a few times in each of our lives that we get to witness a truly historic global accomplishment: Ending smallpox, tearing",
+        "There are only a few times in our lives that we get to witness a truly historic local milestone for Hazaribagh families.",
       icon: "/assets/img/donation/icon-2.png",
       iconWidth: "84",
       delay: ".5s",
@@ -28,7 +28,7 @@ export const Donation1 = () => {
     {
       title: "Medical Facilities",
       description:
-        "There are only a few times in each of our lives that we get to witness a truly historic global accomplishment: Ending smallpox, tearing",
+        "There are only a few times in our lives that we get to witness a truly historic local milestone for Hazaribagh families.",
       icon: "/assets/img/donation/icon-3.png",
       iconWidth: "70",
       delay: ".7s",
@@ -107,11 +107,11 @@ export const Donation2 = () => {
                 className="donate-amount mt-4 wow fadeInUp"
                 data-wow-delay=".5s"
               >
-                <button className="active amount-btn">$10</button>
-                <button className="amount-btn">$30</button>
-                <button className="amount-btn">$50</button>
-                <button className="amount-btn">$100</button>
-                <button className="amount-btn">$200</button>
+                <button className="active amount-btn">₹500</button>
+                <button className="amount-btn">₹1,500</button>
+                <button className="amount-btn">₹2,500</button>
+                <button className="amount-btn">₹5,000</button>
+                <button className="amount-btn">₹10,000</button>
               </div>
               <div
                 className="donate-now mt-4 wow fadeInUp"
@@ -120,7 +120,7 @@ export const Donation2 = () => {
                 <input
                   type="text"
                   className="addAmount-value"
-                  placeholder="$ Costume Amount"
+                  placeholder="₹ Custom Amount"
                 />
                 <div className="btn-one">
                   <span className="btn-circle"></span>

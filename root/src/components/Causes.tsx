@@ -21,8 +21,8 @@ export const Causes1 = () => {
       description:
         "Local classrooms with mentors, reading kits, and safe study spaces.",
       progress: 70,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
       delay: ".3s",
     },
     {
@@ -31,8 +31,8 @@ export const Causes1 = () => {
       description:
         "Support uniforms, books, and transport so learners stay in school.",
       progress: 45,
-      raised: "$3,500",
-      goal: "$8.000",
+      raised: "₹3,500",
+      goal: "₹8,000",
       delay: ".5s",
     },
     {
@@ -41,8 +41,8 @@ export const Causes1 = () => {
       description:
         "Hands-on access to devices, typing, and internet basics.",
       progress: 65,
-      raised: "$6,370",
-      goal: "$10.000",
+      raised: "₹6,370",
+      goal: "₹10,000",
       delay: ".3s",
     },
     {
@@ -51,8 +51,8 @@ export const Causes1 = () => {
       description:
         "Workshops on career pathways, confidence building, and goal setting.",
       progress: 90,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
       delay: ".5s",
     },
   ];
@@ -146,64 +146,64 @@ export const Causes2 = () => {
       category: "Water",
       title: "Rebecca's New Album Aid for the Needy",
       progress: 70,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       img: "/assets/img/causes/05.jpg",
       category: "Foods",
       title: "Education Showcases Student Success",
       progress: 90,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       img: "/assets/img/causes/06.jpg",
       category: "Medical",
       title: "Provide Healthy Meals to an Impoverished Rural Child",
       progress: 55,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       img: "/assets/img/causes/07.jpg",
       category: "Water",
       title: "Rebecca's New Album Aid for the Needy",
       progress: 80,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       img: "/assets/img/causes/04.jpg",
       category: "Water",
       title: "Rebecca's New Album Aid for the Needy",
       progress: 70,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       img: "/assets/img/causes/05.jpg",
       category: "Foods",
       title: "Education Showcases Student Success",
       progress: 90,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       img: "/assets/img/causes/06.jpg",
       category: "Medical",
       title: "Provide Healthy Meals to an Impoverished Rural Child",
       progress: 55,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       img: "/assets/img/causes/07.jpg",
       category: "Water",
       title: "Rebecca's New Album Aid for the Needy",
       progress: 80,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
   ];
   return (
@@ -373,11 +373,11 @@ export const Causes3 = () => {
                   <div className="cause-amount d-flex justify-content-between">
                     <div className="price-raised">
                       <i className="far fa-heart" />
-                      <span>{cause.raised}</span> Raised
+                      <span>₹{cause.raised}</span> Raised
                     </div>
                     <div className="price-goal">
                       <i className="far fa-analytics" />
-                      <span>${cause.goal}</span> Goal
+                      <span>₹{cause.goal}</span> Goal
                     </div>
                     <div className="read-cause-link">
                       <Link href="/causes-details">
@@ -410,17 +410,17 @@ export const Causes4 = () => {
         "There are only a few times in each of our lives that we get to witness.",
       image: "/assets/img/causes/01.png",
       progress: 70,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
-      title: "Give African Child A Good Education",
+      title: "Give Hazaribagh Children A Good Education",
       description:
         "There are only a few times in each of our lives that we get to witness.",
       image: "/assets/img/causes/02.png",
       progress: 90,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
     {
       title: "Raise Fund For Clean & Healthy Food",
@@ -428,8 +428,8 @@ export const Causes4 = () => {
         "There are only a few times in each of our lives that we get to witness.",
       image: "/assets/img/causes/03.png",
       progress: 55,
-      raised: "$4,407",
-      goal: "$10.000",
+      raised: "₹4,407",
+      goal: "₹10,000",
     },
   ];
 
@@ -516,21 +516,21 @@ export const Causes5 = () => {
       category: "Water Day",
       date: "24th January 2024",
       title: "2024 Water Full Day Main Conference",
-      location: "M12/A Miranda Hall Town Hall Street New York, United States",
+      location: "Town Hall Road, Hazaribagh, India",
       image: "/assets/img/event/event-card-bg.jpg",
     },
     {
       category: "Friendship Day",
       date: "24th May 2024",
       title: "How We Can Be A Good Friends",
-      location: "M12/A Miranda Hall Town Hall Street New York, United States",
+      location: "Town Hall Road, Hazaribagh, India",
       image: "/assets/img/event/event-card-bg.jpg",
     },
     {
       category: "Teachers Day",
       date: "24th January 2024",
       title: "Teachers Presentation Day of 2024",
-      location: "M12/A Miranda Hall Town Hall Street New York, United States",
+      location: "Town Hall Road, Hazaribagh, India",
       image: "/assets/img/event/event-card-bg.jpg",
     },
   ];
@@ -639,11 +639,11 @@ const CausesCard = ({
         <div className="cause-amount d-flex justify-content-between">
           <div className="price-raised">
             <i className="far fa-heart" />
-            <span>{raised}</span> Raised
+            <span>₹{raised}</span> Raised
           </div>
           <div className="price-goal">
             <i className="far fa-analytics" />
-            <span>${goal}</span> Goal
+            <span>₹{goal}</span> Goal
           </div>
           <div className="read-cause-link">
             <Link href="/causes-details">
@@ -733,7 +733,7 @@ export const CausesTab = () => {
         id: 5,
         category: "Education",
         image: "/assets/img/causes/01.jpg",
-        title: "Children Education Needs For Change The World.",
+        title: "Children Education Needs For Change Hazaribagh.",
         raised: 6400,
         goal: 9000,
         progress: 80,
@@ -790,7 +790,7 @@ export const CausesTab = () => {
         id: 1,
         category: "Water",
         image: "/assets/img/causes/01.jpg",
-        title: "Everyone in the world Clean Water",
+        title: "Everyone in Hazaribagh Deserves Clean Water",
         raised: 70,
         goal: 3000,
         progress: 90,
