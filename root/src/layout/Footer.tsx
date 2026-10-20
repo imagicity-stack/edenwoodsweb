@@ -119,10 +119,10 @@ const Footer1 = () => {
               <div className="content">
                 <h3>Contact Us</h3>
                 <p>
-                  <a href="mailto:info@edenwoodseduhub.org">
-                    info@edenwoodseduhub.org
+                  <a href="mailto:contact@edenwoods.org">
+                    contact@edenwoods.org
                   </a>
-                  <a href="tel:+919875600111">+91 98756 00111</a>
+                  <a href="tel:+919431904333">+91 94319 04333</a>
                 </p>
               </div>
             </div>
@@ -136,6 +136,7 @@ const Footer1 = () => {
               © <Link href="/">Edenwoods Eduhub Foundation</Link> 2024. All
               rights reserved.
             </p>
+            <RegistrationNote />
           </div>
         </div>
       </div>
@@ -177,8 +178,7 @@ const Footer2 = () => {
                       </div>
                       <div className="content">
                         <h6>
-                          <a href="tel:+919875600111">+91 98756 00111</a>
-                          <a href="tel:+919875600111">+91 98756 00111</a>
+                          <a href="tel:+919431904333">+91 94319 04333</a>
                         </h6>
                       </div>
                     </div>
@@ -189,10 +189,10 @@ const Footer2 = () => {
                       <div className="content">
                         <h6>
                           <a
-                            href="mailto:info@edenwoodseduhub.org"
+                            href="mailto:contact@edenwoods.org"
                             className="link"
                           >
-                            info@edenwoodseduhub.org
+                            contact@edenwoods.org
                           </a>
                           <a
                             href="mailto:volunteer@edenwoodseduhub.org"
@@ -239,6 +239,7 @@ const Footer2 = () => {
               />
             </div>
           </div>
+          <RegistrationNote />
         </div>
       </div>
     </footer>
@@ -266,8 +267,7 @@ const Footer3 = () => {
                       </div>
                       <div className="content">
                         <h6>
-                          <a href="tel:+919875600111">+91 98756 00111</a>
-                          <a href="tel:+919875600111">+91 98756 00111</a>
+                          <a href="tel:+919431904333">+91 94319 04333</a>
                         </h6>
                       </div>
                     </div>
@@ -278,10 +278,10 @@ const Footer3 = () => {
                       <div className="content">
                         <h6>
                           <a
-                            href="mailto:info@edenwoodseduhub.org"
+                            href="mailto:contact@edenwoods.org"
                             className="link"
                           >
-                            info@edenwoodseduhub.org
+                            contact@edenwoods.org
                           </a>
                           <a
                             href="mailto:volunteer@edenwoodseduhub.org"
@@ -352,6 +352,7 @@ const Footer3 = () => {
               © <Link href="/">Edenwoods Eduhub Foundation</Link> 2024. All
               rights reserved.
             </p>
+            <RegistrationNote />
           </div>
         </div>
       </div>
@@ -395,8 +396,8 @@ const Footer4 = () => {
                     <div className="contact">
                       <h4>Email Address</h4>
                       <p>
-                        <a href="mailto:info@edenwoodseduhub.org">
-                          info@edenwoodseduhub.org
+                        <a href="mailto:contact@edenwoods.org">
+                          contact@edenwoods.org
                         </a>
                       </p>
                     </div>
@@ -409,7 +410,7 @@ const Footer4 = () => {
                     <div className="contact">
                       <h4>Phone Number</h4>
                       <p>
-                        <a href="tel:+919875600111">+91 98756 00111</a>
+                        <a href="tel:+919431904333">+91 94319 04333</a>
                       </p>
                     </div>
                   </div>
@@ -542,6 +543,7 @@ const Footer4 = () => {
                 © <Link href="/">Edenwoods Eduhub Foundation</Link> 2024. All
                 rights reserved.
               </p>
+              <RegistrationNote />
             </div>
           </div>
         </div>
@@ -587,6 +589,16 @@ const FooterLogoContainer = () => (
       </div>
     </div>
   </div>
+);
+
+const RegistrationNote = () => (
+  <p className="footer-registration">
+    Section 8 company · PAN AAICE2319K · 12A URN AAICE2319KE20251 · 80G URN
+    AAICE2319KF20251 · <Link href="/legal#registration">Certificates</Link> ·{" "}
+    <Link href="/legal#privacy">Privacy</Link> ·{" "}
+    <Link href="/legal#terms">Terms</Link> ·{" "}
+    <Link href="/legal#refund">Refunds</Link>
+  </p>
 );
 
 type LinkItem = { link: string; text: string };
@@ -652,11 +664,12 @@ const usefulLink = [
   { link: "news", text: "Impact Stories" },
 ];
 const legalLink = [
-  { link: "contact", text: "Terms of Use" },
-  { link: "contact", text: "Privacy Policy" },
-  { link: "contact", text: "Safeguarding" },
-  { link: "contact", text: "Volunteer Code" },
-  { link: "contact", text: "Contact Us" },
+  { link: "/legal#registration", text: "Registration & 80G" },
+  { link: "/legal#privacy", text: "Privacy Policy" },
+  { link: "/legal#terms", text: "Terms of Use" },
+  { link: "/legal#refund", text: "Refund & Cancellation" },
+  { link: "/legal#donation", text: "Donation Policy" },
+  { link: "/legal#safeguarding", text: "Child Safeguarding" },
 ];
 const aboutLink = [
   { link: "index", text: "Home" },

@@ -1,0 +1,357 @@
+/* Legal & Policies page — overrides the theme's base element styles (main.css) */
+.root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f7f5ef;
+  color: #14302e;
+  -webkit-font-smoothing: antialiased;
+}
+.root,
+.root * {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  box-sizing: border-box;
+}
+.root a {
+  color: #0f6e66;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: none;
+}
+.root a:hover {
+  color: #0c4340;
+}
+.root h1,
+.root h2 {
+  transition: none;
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(247, 245, 239, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(12, 67, 64, 0.12);
+}
+.headerInner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 12px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.root .logoLink {
+  display: flex;
+  text-decoration: none;
+}
+.logoLink img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+.root .backLink {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0c4340;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background: #0c4340;
+  color: #f7f5ef;
+  position: relative;
+  overflow: hidden;
+}
+.heroInner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 56px 28px 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 32px;
+  align-items: end;
+}
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 48px;
+}
+.eyebrow {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #9ed9cf;
+  line-height: normal;
+}
+.eyebrowRule {
+  width: 40px;
+  height: 2px;
+  background: #e7b04e;
+  display: block;
+}
+.root .title {
+  margin: 0;
+  font-weight: 800;
+  font-size: clamp(40px, 6vw, 80px);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+  text-transform: none;
+  color: #f7f5ef;
+}
+.updated {
+  font-size: 13.5px;
+  color: #c9ddd9;
+  letter-spacing: 0.02em;
+  line-height: normal;
+}
+.bigNum {
+  font-size: clamp(120px, 18vw, 260px);
+  font-weight: 800;
+  line-height: 0.78;
+  letter-spacing: -0.06em;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(158, 217, 207, 0.55);
+  margin-bottom: -8px;
+  user-select: none;
+}
+.strip {
+  border-top: 1px solid rgba(158, 217, 207, 0.25);
+  background: #0a3836;
+}
+.stripInner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 14px 28px;
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #9ed9cf;
+  line-height: normal;
+}
+.diamond {
+  color: #e7b04e;
+}
+
+/* Body */
+.main {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 56px 28px 96px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  align-items: flex-start;
+  flex: 1;
+}
+.aside {
+  flex: 1 1 240px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+.indexHead {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #0c4340;
+  padding: 0 0 14px;
+  border-bottom: 2px solid #0c4340;
+  line-height: normal;
+}
+.tab {
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid rgba(12, 67, 64, 0.15);
+  cursor: pointer;
+  padding: 13px 12px;
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 8px;
+  align-items: baseline;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  background: transparent;
+  color: #14302e;
+}
+.tab:hover {
+  padding-left: 18px;
+}
+.tabActive {
+  background: #0c4340;
+  color: #f7f5ef;
+}
+.tabNum {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #0f6e66;
+}
+.tabActive .tabNum {
+  color: #e7b04e;
+}
+.askBox {
+  margin-top: 28px;
+  padding: 20px;
+  background: #e7b04e;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #0c4340;
+  font-weight: 500;
+}
+
+.article {
+  flex: 999 1 480px;
+  max-width: 760px;
+  min-width: 0;
+}
+.root .lead {
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+  color: #0c4340;
+}
+.root .h2 {
+  margin: 52px 0 16px;
+  padding-top: 16px;
+  border-top: 2px solid #0c4340;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #0c4340;
+}
+.root .p {
+  margin: 0 0 14px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #2b4643;
+}
+.root .note {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #5a716e;
+}
+.root .ul {
+  margin: 0 0 14px;
+  padding-left: 22px;
+  list-style-type: square;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #2b4643;
+}
+
+/* Registration details */
+.rows {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(12, 67, 64, 0.1);
+}
+.row {
+  display: grid;
+  grid-template-columns: minmax(140px, 220px) 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(12, 67, 64, 0.1);
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.rowLabel {
+  font-weight: 600;
+  color: #5a716e;
+}
+.rowValue {
+  color: #14302e;
+  font-weight: 500;
+  word-break: break-word;
+}
+.docs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 12px;
+}
+.root .doc {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1.5px solid #0c4340;
+}
+.root .doc:hover {
+  background: #e7b04e;
+}
+.docText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  line-height: normal;
+}
+.docName {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0c4340;
+}
+.docMeta {
+  font-size: 13px;
+  color: #5a716e;
+}
+.docCta {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f6e66;
+  white-space: nowrap;
+}
+
+.orgBox {
+  margin-top: 64px;
+  padding: 28px;
+  background: #0c4340;
+  font-size: 14px;
+  line-height: 1.75;
+  color: #c9ddd9;
+}
+.orgBox strong {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  background: #0a3836;
+  color: #bcd6d0;
+}
+.footerInner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 28px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 12.5px;
+  line-height: normal;
+}
