@@ -24,8 +24,7 @@ const CausesPage = () => {
                 </div>
                 <div className="bottom-part">
                   <div className="info">
-                    <p>info@edenwoodseduhub.org</p>
-                    <p>volunteer@edenwoodseduhub.org</p>
+                    <p>contact@edenwoods.org</p>
                   </div>
                   <div className="icon">
                     <i className="fal fa-arrow-right" />
@@ -50,7 +49,6 @@ const CausesPage = () => {
                 <div className="bottom-part">
                   <div className="info">
                     <p>+91 94319 04333</p>
-                    <p>+91 98756 00222</p>
                   </div>
                   <div className="icon">
                     <i className="fal fa-arrow-right" />

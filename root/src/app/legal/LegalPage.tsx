@@ -37,10 +37,10 @@ const LegalPage = ({ fontClass }: { fontClass: string }) => {
         <div className={s.headerInner}>
           <Link href="/" className={s.logoLink}>
             <Image
-              src="/assets/img/logo/edenwoods-logo-full.png"
+              src="/assets/img/logo/edenwoods-logo.png"
               alt="Edenwoods Eduhub Foundation"
-              width={640}
-              height={431}
+              width={356}
+              height={240}
               priority
             />
           </Link>
