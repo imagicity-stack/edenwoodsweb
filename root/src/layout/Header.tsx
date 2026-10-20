@@ -23,7 +23,7 @@ const Header = ({ header }: { header?: number }) => {
 export default Header;
 
 const Logo = ({
-  logo = "edenwoods-logo-light.svg",
+  logo = "edenwoods-logo-light.png",
   className = "header-logo",
 }: {
   logo?: string;
@@ -32,8 +32,8 @@ const Logo = ({
   <Link href="/" className={className}>
     <Image
       src={`/assets/img/logo/${logo}`}
-      width={240}
-      height={54}
+      width={95}
+      height={64}
       alt="Edenwoods Eduhub Foundation logo"
     />
   </Link>
@@ -73,7 +73,7 @@ const Header1 = ({ open }: { open: () => void }) => (
           <div className="header-left">
             <div className="logo">
               <Logo />
-              <Logo className="header-logo-2" logo="edenwoods-logo.svg" />
+              <Logo className="header-logo-2" logo="edenwoods-logo.png" />
             </div>
           </div>
           <div className="header-right d-flex justify-content-end align-items-center">
@@ -112,8 +112,8 @@ const Header2 = ({ open }: { open: () => void }) => (
               {
                 icon: "far fa-envelope",
                 content: (
-                  <a href="mailto:info@edenwoodseduhub.org" className="link">
-                    info@edenwoodseduhub.org
+                  <a href="mailto:contact@edenwoods.org" className="link">
+                    contact@edenwoods.org
                   </a>
                 ),
               },
@@ -129,7 +129,7 @@ const Header2 = ({ open }: { open: () => void }) => (
           <div className="header-main style-2">
             <div className="header-left">
               <div className="logo">
-                <Logo logo="edenwoods-logo.svg" />
+                <Logo logo="edenwoods-logo.png" />
               </div>
               <div className="mean__menu-wrapper">
                 <Nav />
@@ -143,7 +143,7 @@ const Header2 = ({ open }: { open: () => void }) => (
                 <div className="content">
                   <span>Call Us Today</span>
                   <h5>
-                    <a href="tel:+919875600111">+91 98756 00111</a>
+                    <a href="tel:+919431904333">+91 94319 04333</a>
                   </h5>
                 </div>
               </div>
@@ -181,16 +181,16 @@ const Header3 = ({ open }: { open: () => void }) => {
                     icon: "far fa-envelope",
                     content: (
                       <a
-                        href="mailto:info@edenwoodseduhub.org"
+                        href="mailto:contact@edenwoods.org"
                         className="link"
                       >
-                        info@edenwoodseduhub.org
+                        contact@edenwoods.org
                       </a>
                     ),
                   },
                   {
                     icon: "fa fa-regular fa-phone",
-                    content: <a href="tel:+919875600111">+91 98756 00111</a>,
+                    content: <a href="tel:+919431904333">+91 94319 04333</a>,
                   },
                 ]}
               />
@@ -208,7 +208,7 @@ const Header3 = ({ open }: { open: () => void }) => {
             <div className="mega-menu-wrapper">
               <div className="header-main">
                 <div className="logo d-none">
-                  <Logo logo="edenwoods-logo.svg" />
+                  <Logo logo="edenwoods-logo.png" />
                 </div>
                 <div className="header-left">
                   <div className="mean__menu-wrapper">
@@ -263,10 +263,10 @@ const Header4 = ({ open }: { open: () => void }) => {
                     icon: "far fa-envelope",
                     content: (
                       <a
-                        href="mailto:info@edenwoodseduhub.org"
+                        href="mailto:contact@edenwoods.org"
                         className="link"
                       >
-                        info@edenwoodseduhub.org
+                        contact@edenwoods.org
                       </a>
                     ),
                   },
@@ -282,7 +282,7 @@ const Header4 = ({ open }: { open: () => void }) => {
               <div className="header-main style-2">
                 <div className="header-left">
                   <div className="logo">
-                    <Logo logo="edenwoods-logo.svg" />
+                    <Logo logo="edenwoods-logo.png" />
                   </div>
                 </div>
                 <div className="header-right d-flex justify-content-end align-items-center">
@@ -382,7 +382,7 @@ const Nav = () => (
               <Link href="/faq">Faq's</Link>
             </li>
             <li>
-              <Link href="/404">404 Page</Link>
+              <Link href="/legal">Legal &amp; Policies</Link>
             </li>
           </ul>
         </li>
@@ -438,7 +438,7 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
           <div className="offcanvas__content">
             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo">
-                <Logo logo="edenwoods-logo.svg" className="" />
+                <Logo logo="edenwoods-logo.png" className="" />
               </div>
               <div className="offcanvas__close">
                 <button onClick={close}>
@@ -462,8 +462,8 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
                   },
                   {
                     icon: "fal fa-envelope",
-                    link: "mailto:info@edenwoodseduhub.org",
-                    text: "info@edenwoodseduhub.org",
+                    link: "mailto:contact@edenwoods.org",
+                    text: "contact@edenwoods.org",
                   },
                   {
                     icon: "fal fa-clock",
@@ -472,8 +472,8 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
                   },
                   {
                     icon: "far fa-phone",
-                    link: "tel:+919875600111",
-                    text: "+91 98756 00111",
+                    link: "tel:+919431904333",
+                    text: "+91 94319 04333",
                   },
                 ].map((item, i) => (
                   <li key={i} className="d-flex align-items-center">
@@ -490,7 +490,7 @@ const MobileMenu = ({ open, close }: { open: boolean; close: () => void }) => (
                         href={item.link}
                       >
                         {i === 1 ? (
-                          <span className="mailto:info@edenwoodseduhub.org">
+                          <span className="mailto:contact@edenwoods.org">
                             {item.text}
                           </span>
                         ) : (
@@ -627,7 +627,7 @@ const MobileNav = () => {
                   <Link href="/faq">Faq's</Link>
                 </li>
                 <li>
-                  <Link href="/404">404 Page</Link>
+                  <Link href="/legal">Legal &amp; Policies</Link>
                 </li>
               </ul>
               <a

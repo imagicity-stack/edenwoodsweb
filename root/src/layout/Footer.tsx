@@ -194,12 +194,6 @@ const Footer2 = () => {
                           >
                             contact@edenwoods.org
                           </a>
-                          <a
-                            href="mailto:volunteer@edenwoodseduhub.org"
-                            className="link"
-                          >
-                            volunteer@edenwoodseduhub.org
-                          </a>
                         </h6>
                       </div>
                     </div>
@@ -282,12 +276,6 @@ const Footer3 = () => {
                             className="link"
                           >
                             contact@edenwoods.org
-                          </a>
-                          <a
-                            href="mailto:volunteer@edenwoodseduhub.org"
-                            className="link"
-                          >
-                            volunteer@edenwoodseduhub.org
                           </a>
                         </h6>
                       </div>
@@ -376,8 +364,8 @@ const Footer4 = () => {
                       width={0}
                       height={0}
                       sizes="100vw"
-                      style={{ width: "178px", height: "54px" }}
-                      src="/assets/img/logo/edenwoods-logo-light.svg"
+                      style={{ width: "auto", height: "80px" }}
+                      src="/assets/img/logo/edenwoods-logo-light.png"
                       alt="img"
                     />
                   </Link>
@@ -560,9 +548,9 @@ const FooterLogoContainer = () => (
       <div className="widget-head">
         <Link href="/">
           <Image
-            src="/assets/img/logo/edenwoods-logo-light.svg"
-            width={240}
-            height={54}
+            src="/assets/img/logo/edenwoods-logo-light.png"
+            width={119}
+            height={80}
             alt="Edenwoods Eduhub Foundation logo"
           />
         </Link>
